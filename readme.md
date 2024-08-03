@@ -5,3 +5,7 @@ This script was created and developed by (__@izEyy442__) in open source. Please 
 ## Requirements
 
 In line __189__ of the __Client/Files/client.lua__ folder, replace __"founder"__ with the grades authorized to use this menu.
+
+## Previews
+
+-> https://youtu.be/d-VLvbUZCx8?si=Hr7nYqYjZ4BMxP3a
