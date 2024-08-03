@@ -1,4 +1,13 @@
-ESX = exports["Framework"]:getSharedObject()
+ESX = nil
+
+Citizen.CreateThread(function()
+    while ESX == nil do
+        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+        Citizen.Wait(0)
+    end
+end)
+
+-- ESX = exports["Framework"]:getSharedObject()
 
 local BuilderMenu = RageUI.AddMenu("", "BlipsBuilder")
 
